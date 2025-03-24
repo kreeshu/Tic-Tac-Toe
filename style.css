@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box; 
+}
+
+body  {
+    background-color: lightgrey;
+    align-items: center;
+}  
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 60vim;
+    width: 60vmin;
+    gap: 1.5vmin; 
+    align-items: center;
+}
+
+.box {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin-top: 20px; 
+    height: 18vmin;
+    width: 18vmin;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+.box:hover {
+    cursor: pointer;
+}
+
