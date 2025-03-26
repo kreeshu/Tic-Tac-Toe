@@ -23,7 +23,7 @@ h1 {
   align-items: center; 
   flex-direction: column;
   grid-gap: 20px;
-  width: 90%;
+  width: 100%;
   max-width: 400px;
 }
 
@@ -55,7 +55,7 @@ h1 {
 .box:hover {
     cursor: pointer;
 }
-
+/* 
 .box.player1::before{
     content: '';
     width: 50px;
@@ -88,7 +88,7 @@ h1 {
     width: 50px;
     height: 2px;
     background: black;
-}
+} */
 
 #reset-button {
    background-color: lightgreen;
@@ -99,6 +99,19 @@ h1 {
    display: flex;
 
 }
+
+#new-button {
+    background-color: lightgreen;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    /* margin-left: 45rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+ }
 
 /* @media screen and (max-width: 530px) {
     /* .container {
@@ -111,3 +124,10 @@ h1 {
 
 } */ 
 
+.hide {
+    display: none;
+}
+.msg-container msg{
+    justify-content: center;
+    margin-top: 100px;
+}
